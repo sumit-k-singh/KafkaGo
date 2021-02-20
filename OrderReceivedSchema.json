@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "OrderReceivedSchema",
+    "description" : "Defines events for orders received",
+    "type": "object",
+    "properties": {
+        "eventName": {
+            "description": "orders received event name",
+            "type":"string"
+        },
+        "eventID": {
+            "description": "Unique eventID",
+            "type":"string"
+        },
+        "eventTime": {
+            "description": "Time when event was generated",
+            "type":"string",
+            "format":"date-time"
+        },
+        "orderID": {
+            "description": "order number generated when customer placed an order",
+            "type":"string"
+        },
+        "customerName": {
+            "description": "Customer name and mailing address",
+            "type":"string"
+        },
+        "orderAmount": {
+            "description": "Cost of items in the order",
+            "type":"number"
+        }
+    },
+    "required":["eventName", "eventID", "eventTime", "orderID"]
+}

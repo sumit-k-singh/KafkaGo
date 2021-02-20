@@ -1,0 +1,32 @@
+{
+    "OrderMail": [
+        {
+            "eventName": "ORD_MAIL",
+            "eventID": "EE134567",
+            "eventTime": "02/14/2021 14:10:43AM",
+            "orderID":"767836487",
+            "emailAddress": "zgc@abc.com"
+        },
+        {
+            "eventName": "ORD_MAIL",
+            "eventID": "EE545676",
+            "eventTime": "01/11/2021 11:45:45AM",
+            "orderID":"456e23424",
+            "emailAddress": "wfw@rtw.com"
+        },
+        {
+            "eventName": "ORD_MAIL",
+            "eventID": "EE778867",
+            "eventTime": "01/27/2021 14:10:43PM",
+            "orderID":"872342349",
+            "emailAddress": "oiw@etr.com"
+        },
+        {
+            "eventName": "ORD_MAIL",
+            "eventID": "EE844736",
+            "eventTime": "02/19/2021 16:50:43PM",
+            "orderID":"652342590",
+            "emailAddress": "car@mak.com"
+        }
+    ]
+}

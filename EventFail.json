@@ -1,0 +1,31 @@
+{
+    "EventFail": [
+        {
+            "eventName": "EVT_FAIL",
+            "eventID": "EF134567",
+            "eventTime": "02/14/2021 14:10:43AM",
+            "failEvtID":"ER345345",
+            "failEvtType":"ORD_RECVD"
+        },
+        {
+            "eventName": "EVT_FAIL",
+            "eventID": "EF545676",
+            "eventTime": "01/11/2021 11:45:45AM",
+            "failEvtID":"ER234556",
+            "failEvtType":"ORD_RECVD"
+        },
+        {
+            "eventName": "EVT_FAIL",
+            "eventID": "EF778867",
+            "eventTime": "01/27/2021 14:10:43PM",
+            "failEvtID":"ER980126",
+            "failEvtType":"ORD_RECVD"
+        },
+        {
+            "eventName": "EVT_FAIL",
+            "eventID": "EF822331",
+            "eventTime": "02/19/2021 16:50:43PM",
+            "failEvtType":"ORD_RECVD"
+        }
+    ]
+}

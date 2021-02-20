@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "OrderConfirmedSchema",
+    "description" : "Defines events for orders Confirmed",
+    "type": "object",
+    "properties": {
+        "eventName": {
+            "description": "orders confirmed event name",
+            "type":"string"
+        },
+        "eventID": {
+            "description": "Unique eventID",
+            "type":"string"
+        },
+        "eventTime": {
+            "description": "Time when event was generated",
+            "type":"string",
+            "format":"date-time"
+        },
+        "orderID": {
+            "description": "Unique order number generated when customer placed an order",
+            "type":"string"
+        },
+        "isDuplicateOrder": {
+            "description": "indicates if order corresponding to order ID was already confirmed",
+            "enum":[false]
+        }
+    },
+    "required":["eventName", "eventID", "eventTime", "orderID", "isDuplicateOrder"]
+}

@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "OrderReadySchema",
+    "description" : "Defines events for orders ready to be shipped",
+    "type": "object",
+    "properties": {
+        "eventName": {
+            "description": "orders ready event name",
+            "type":"string"
+        },
+        "eventID": {
+            "description": "Unique eventID",
+            "type":"string"
+        },
+        "eventTime": {
+            "description": "Time when event was generated",
+            "type":"string",
+            "format":"date-time"
+        },
+        "orderID": {
+            "description": "Unique order number generated when customer placed an order",
+            "type":"string"
+        },
+        "shipAddress": {
+            "description": "Shipping address",
+            "type": "string"
+        }
+
+    },
+    "required":["eventName", "eventID", "eventTime", "orderID", "shipAddress"]
+}

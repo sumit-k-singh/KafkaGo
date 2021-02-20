@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "OrderEmailSchema",
+    "description" : "Defines events for sending order email",
+    "type": "object",
+    "properties": {
+        "eventName": {
+            "description": "orders confirmed event name",
+            "type":"string"
+        },
+        "eventID": {
+            "description": "Unique eventID",
+            "type":"string"
+        },
+        "eventTime": {
+            "description": "Time when event was generated",
+            "type":"string",
+            "format":"date-time"
+        },
+        "orderID": {
+            "description": "Unique order number generated when customer placed an order",
+            "type":"string"
+        },
+        "emailAddress": {
+            "description": "email address of customer",
+            "type": "string"
+        }
+    },
+    "required":["eventName", "eventID", "eventTime", "orderID", "emailAddress"]
+}

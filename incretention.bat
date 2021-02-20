@@ -1,0 +1,1 @@
+kafka\bin\windows\kafka-configs.bat --bootstrap-server localhost:9092 --alter --entity-type topics --entity-name ordReadyTopic --add-config retention.ms=259200000

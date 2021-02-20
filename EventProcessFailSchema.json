@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "EventProcessFail",
+    "description" : "Event that is generated/sent if Consumer is unable to process an event",
+    "type": "object",
+    "properties": {
+        "eventName": {
+            "description": "orders confirmed event name. Must start with FA",
+            "type":"string"
+        },
+        "eventID": {
+            "description": "Unique eventID",
+            "type":"string"
+        },
+        "eventTime": {
+            "description": "Time when above event was generated",
+            "type":"string",
+            "format":"date-time"
+        },
+        "failEvtID": {
+            "description": "event ID that failed",
+            "type":"string"
+        },
+        "failEvtType": {
+            "description": "Whichof the 4 events failed (can also be deduced from failing eventID",
+            "type":"string"
+        }
+    },
+    "required":["eventName", "eventID", "eventTime", "orderID", "failingEventID"]
+}

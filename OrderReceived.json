@@ -1,0 +1,39 @@
+{
+    "OrderReceived": [
+        {
+            "eventName": "ORD_RECVD",
+            "eventID": "ER134567",
+            "orderID": "120",
+            "customerName":"John Doe",
+            "orderAmount":123.90
+        },
+        {
+            "eventName": "ORD_RECVD",
+            "eventID": "ER134544",
+            "orderID": "123",
+            "customerName":"Jane Doe",
+            "orderAmount":23.45
+        },
+        {
+            "eventName": "ORD_RECVD",
+            "eventID": "ER123456",
+            "orderID": "108",
+            "customerName":"Mike Myers",
+            "orderAmount":100.00
+        },
+        {
+            "eventName": "ORD_RECVD",
+            "eventID": "ER783451",
+            "orderID": "234",
+            "customerName":"Kasey Fritz",
+            "orderAmount":25.87
+        },
+        {
+            "eventName": "ORD_RECVD",
+            "eventID": "ER543984",
+            "orderID": "89",
+            "customerName":"Tyler Moe",
+            "orderAmount":5.99
+        }
+    ]
+}
